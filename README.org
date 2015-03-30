@@ -4,3 +4,15 @@
 * Introducción
 
 Queremos aprender a ser reactivos, y comenzaremos con la siguiente [[https://gist.github.com/staltz/868e7e9bc2a7b8c1f754][introducción]].
+
+* A quién seguir
+
+Hemos intentado replicar el funcionamiento en local, a partir de los ficheros mostrados en el tutorial.
+
+Si tienes python instalado:
+
+#+BEGIN_SRC sh
+python -m SimpleHTTPServer
+#+END_SRC
+
+y navega a [[http://localhost:8000]].
