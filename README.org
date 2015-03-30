@@ -16,3 +16,9 @@ python -m SimpleHTTPServer
 #+END_SRC
 
 y navega a [[http://localhost:8000]].
+
+* Como configurar un token personal
+
+Github puede bloquear tu IP si haces demasidas llamadas anónimas. Para
+evitarlo puedes seguir las instrucciones en a-quien-seguir/github-personal-token.js 
+
