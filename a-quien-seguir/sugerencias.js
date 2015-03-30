@@ -21,7 +21,7 @@ var responseStream = requestStream
 
 function createSuggestionStream(closeClickStream) {
     return closeClickStream.startWith('startup click')
-        .combineLatest(responseStream,             
+        .combineLatest(responseStream,
             function(click, listUsers) {
                 return listUsers[Math.floor(Math.random()*listUsers.length)];
             }
